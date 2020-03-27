@@ -64,6 +64,8 @@
     .search-partners {
         margin-bottom: 40px;
     }
+    .two {order: 1;}
+    .four {order: 2;}
 }
 
 @media (min-width: 768px) and (max-width:1199px) {
@@ -75,7 +77,7 @@
     }
     .list-partners {
         width: 504px;
-    }
+    }    
 }
 
 @media (min-width: 1200px) {
@@ -97,5 +99,4 @@
     .search-partners {
         margin-bottom: 74px;
     }
-
 }
