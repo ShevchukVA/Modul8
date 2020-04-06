@@ -11,6 +11,11 @@
     .list-item-partners:not(:last-child) {
         margin-bottom: 26px;
     }
+    .text-menu-section {
+        max-width: 224px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* TABLET */
@@ -19,8 +24,7 @@
     .container {
         width: 748px;
         margin: 0 auto;
-        padding: 0 10px;
-    }
+}
     /* HEADER */
     .menu-section {
         background-image: url(../img/Tablet.png);
@@ -49,6 +53,8 @@
     }
     .search-menu-section {
         padding: 12px 20px;
+    }
+    .about-site {
         margin-bottom: 234px;
     }
     /* SECTION PARTNERS */
@@ -56,10 +62,11 @@
         margin-bottom: 36px;
     }
     .list-partners {
+        width: 100%;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         margin-bottom: 38px;
     }
     .search-partners {
@@ -70,12 +77,11 @@
 }
 
 @media (min-width: 748px) and (max-width:939px) {
-    .list-item-partners:not(:nth-last-child(-n+2)) {
+    .list-item-partners:nth-child(odd) {
         margin-bottom: 56px;
     }
     .page-nav {
         width: 100%;
-        padding: 0 32px;
 }
     .list-partners {
         width: 504px;
@@ -86,8 +92,7 @@
     .container {
         width: 940px;
         margin: 0 auto;
-        padding: 0;
-    }
+}
      /* HEADER */
      .menu-section {
         background-image: url(../img/Desktop.png);
