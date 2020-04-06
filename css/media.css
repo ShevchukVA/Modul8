@@ -41,7 +41,7 @@
     }
     .about-site {
         width: 504px;
-        margin: 0 auto;
+        margin-bottom: 234px;
     }
     .title-menu-section {
         font-size: 52px;
@@ -54,9 +54,7 @@
     .search-menu-section {
         padding: 12px 20px;
     }
-    .about-site {
-        margin-bottom: 234px;
-    }
+            
     /* SECTION PARTNERS */
     .title-partners {
         margin-bottom: 36px;
